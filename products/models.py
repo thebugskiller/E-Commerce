@@ -6,3 +6,6 @@ class Product(models.Model):
     description = models.TextField()
     category = models.CharField(max_length=100)
     image = models.URLField()
+    
+    def _str_(self):
+        return self.title
