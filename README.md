@@ -31,7 +31,9 @@ This is a simple and responsive e-commerce application built using Django Rest F
 1. Clone the repository
 2. Install backend dependencies
 3. Set up the database
-5. Configure environment variables
+5. Configure environment variables (Add .env file in root directory)
+    a. Add STRIPE_PUBLISHABLE_KEY
+    b. Add STRIPE_SECRET_KEY
 6. Run the development servers
 
 ## API Endpoints
